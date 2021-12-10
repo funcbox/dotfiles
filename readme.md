@@ -19,6 +19,10 @@ Stow
 stow git
 ```
 
+## Tools
+* [Go](https://go.dev)
+* [gh - GitHub CLI](https://cli.github.com/manual/gh)
+
 ## References
 * https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6
 * https://www.jakewiesler.com/blog/managing-dotfiles

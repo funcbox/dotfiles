@@ -10,6 +10,7 @@ function install_nix_packages() {
 	      nixpkgs.tmux \
 	      nixpkgs.tree \
 	      nixpkgs.git \
+	      nixpkgs.gh \
 	      nixpkgs.stow
 }
 
