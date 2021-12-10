@@ -1,7 +1,7 @@
 # dotfiles
 It manages dotfiles with stow and installs software programs with nix.
 
-## Prerequisites
+## Mac Prerequisites
 ```
 xcode-select --install
 ```

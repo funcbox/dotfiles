@@ -9,6 +9,7 @@ function install_nix_packages() {
 	      nixpkgs.neovim \
 	      nixpkgs.tmux \
 	      nixpkgs.tree \
+	      nixpkgs.git \
 	      nixpkgs.stow
 }
 
