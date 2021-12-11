@@ -7,6 +7,7 @@ function install_nix() {
 function install_nix_packages() {
     nix-env -iA \
 	      nixpkgs.neovim \
+	      nixpkgs.antibody \
 	      nixpkgs.tmux \
 	      nixpkgs.tree \
 	      nixpkgs.git \
@@ -14,18 +15,22 @@ function install_nix_packages() {
 	      nixpkgs.stow
 }
 
-function stow_dotfiles() {
-  stow git
-# stow nvim
-# stow tmux
-# stow zsh
+function bundle_antibody_plugins() {
+    antibody bundle < zsh/.zsh_plugins.txt > zsh/.zsh_plugins.sh
 }
+
+function stow_dotfiles() {
+  stow git --target="$HOME"
+  stow zsh --target="$HOME"
+}
+
 
 function main() {
     # install_nix
     # install_nix_packages
+    # bundle_antibody_plugins
     # stow_dotfiles
-    echo "remove comments to setup"
+    echo "remove comments to setup dotfiles and install programs"
 }
 
 main

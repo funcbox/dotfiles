@@ -1,0 +1,25 @@
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### Node ###
+# Logs
+logs *.log npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Project build
+dist
+
+# environment variables per project
+.env
+
+### Other ###
+.workspace
+.cfg
+.idea
