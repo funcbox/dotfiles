@@ -6,6 +6,12 @@ It manages dotfiles with stow and installs software programs with nix.
 xcode-select --install
 ```
 
+### Prerequisites
+```
+mkdir $HOME/go
+mkdir $HOME/go/bin
+```
+
 ### Setup
 Run script `./setup.sh`
 
@@ -31,6 +37,7 @@ stow git --target=$HOME
 * [nerdfont](https://webinstall.dev/nerdfont/)
 * [antibody](https://getantibody.github.io)
 * [Go](https://go.dev)
+* [Deno](https://deno.land)
 * [gh - GitHub CLI](https://cli.github.com/manual/gh)
 
 ### References

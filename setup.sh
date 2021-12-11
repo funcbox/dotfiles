@@ -12,6 +12,8 @@ function install_nix_packages() {
 	      nixpkgs.tree \
 	      nixpkgs.git \
 	      nixpkgs.gh \
+	      nixpkgs.go_1_17 \
+	      nixpkgs.deno \
 	      nixpkgs.stow
 }
 
