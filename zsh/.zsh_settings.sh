@@ -6,6 +6,9 @@ export EDITOR=vim
 alias la='clear && ls -FGla'
 alias ll='clear && ls -FGl'
 
+alias te='clear && tree -RF'
+alias ta='clear && tree -RFa -I ".git|.idea"'
+
 ## Git
 alias gd='clear && git diff'
 alias gg='clear && git status -s'
