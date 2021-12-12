@@ -27,6 +27,6 @@ Stow git folder `stow git --target=$HOME`
 ### References
 * [NixOS](https://nixos.org)
 * [Search Nix packages](https://search.nixos.org/packages)
-* [NixOS Docker][https://github.com/NixOS/docker]
+* [NixOS Docker](https://github.com/NixOS/docker)
 * [webinstall.dev](https://webinstall.dev)
 * [Build A Portable Development Environment](https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6)
