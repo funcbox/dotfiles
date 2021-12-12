@@ -17,10 +17,11 @@ Run script `./setup.sh`
 
 ### Nix
 
-List programs
+List
 ```
 nix-env -q --installed 
 ```
+* [Search](https://search.nixos.org/packages)
 
 Install node LTS
 ```
@@ -32,11 +33,6 @@ nix-env -iA nixpkgs.nodejs-16_x
 stow git --target=$HOME
 ```
 
-### Tools
-* [Go](https://go.dev)
-* [Deno](https://deno.land)
-* [GitHub CLI](https://cli.github.com/manual/gh)
-
 ### References
 * https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6
 * https://github.com/jakewies/.dotfiles
@@ -46,4 +42,7 @@ stow git --target=$HOME
 * https://github.com/NixOS/docker
 * https://www.gnu.org/software/stow
 * [Antibody](https://getantibody.github.io)
+* [Go](https://go.dev)
+* [Deno](https://deno.land)
+* [GitHub CLI](https://cli.github.com/manual/gh)
 * https://webinstall.dev

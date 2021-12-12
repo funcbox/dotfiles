@@ -11,9 +11,15 @@ function install_nix_packages() {
 	      nixpkgs.tree \
 	      nixpkgs.git \
 	      nixpkgs.gh \
-	      nixpkgs.go_1_17 \
 	      nixpkgs.deno \
 	      nixpkgs.nodejs-16_x \
+	      nixpkgs.go_1_17 \
+	      nixpkgs.golangci-lint \
+	      nixpkgs.go-tools \
+	      nixpkgs.gosec \
+	      nixpkgs.mage \
+	      nixpkgs.wire \
+	      nixpkgs.modd \
 	      nixpkgs.stow
 }
 
