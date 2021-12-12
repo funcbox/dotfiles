@@ -13,6 +13,7 @@ function install_nix_packages() {
 	      nixpkgs.gh \
 	      nixpkgs.go_1_17 \
 	      nixpkgs.deno \
+	      nixpkgs.nodejs-16_x \
 	      nixpkgs.stow
 }
 
@@ -24,7 +25,6 @@ function stow_dotfiles() {
   stow git --target="$HOME"
   stow zsh --target="$HOME"
 }
-
 
 function main() {
     # install_nix

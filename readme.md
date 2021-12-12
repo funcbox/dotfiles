@@ -22,9 +22,9 @@ List programs
 nix-env -q --installed 
 ```
 
-Install tmux
+Install node LTS
 ```
-nix-env -iA nixpkgs.tmux
+nix-env -iA nixpkgs.nodejs-16_x
 ```
 
 ### Stow
