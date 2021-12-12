@@ -8,7 +8,6 @@ function install_nix_packages() {
     nix-env -iA \
 	      nixpkgs.neovim \
 	      nixpkgs.antibody \
-	      nixpkgs.tmux \
 	      nixpkgs.tree \
 	      nixpkgs.git \
 	      nixpkgs.gh \

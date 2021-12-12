@@ -33,11 +33,9 @@ stow git --target=$HOME
 ```
 
 ### Tools
-* [nerdfont](https://webinstall.dev/nerdfont/)
-* [antibody](https://getantibody.github.io)
 * [Go](https://go.dev)
 * [Deno](https://deno.land)
-* [gh - GitHub CLI](https://cli.github.com/manual/gh)
+* [GitHub CLI](https://cli.github.com/manual/gh)
 
 ### References
 * https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6
@@ -47,4 +45,5 @@ stow git --target=$HOME
 * https://search.nixos.org/packages
 * https://github.com/NixOS/docker
 * https://www.gnu.org/software/stow
+* [Antibody](https://getantibody.github.io)
 * https://webinstall.dev
