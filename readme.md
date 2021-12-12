@@ -25,10 +25,8 @@ Install node LTS `nix-env -iA nixpkgs.nodejs-16_x`
 Stow git folder `stow git --target=$HOME`
 
 ### References
-* https://nixos.org
-* https://search.nixos.org/packages
-* https://github.com/NixOS/docker
-* https://webinstall.dev
-* https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6
-* https://github.com/jakewies/.dotfiles
-* https://www.jakewiesler.com/blog/managing-dotfiles
+* [NixOS](https://nixos.org)
+* [Search Nix packages](https://search.nixos.org/packages)
+* [NixOS Docker][https://github.com/NixOS/docker]
+* [webinstall.dev](https://webinstall.dev)
+* [Build A Portable Development Environment](https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6)
