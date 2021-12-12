@@ -32,7 +32,6 @@ nix-env -iA nixpkgs.tmux
 stow git --target=$HOME
 ```
 
-
 ### Tools
 * [nerdfont](https://webinstall.dev/nerdfont/)
 * [antibody](https://getantibody.github.io)
