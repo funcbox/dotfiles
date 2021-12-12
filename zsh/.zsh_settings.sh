@@ -10,6 +10,7 @@ alias te='clear && tree -RF'
 alias ta='clear && tree -RFa -I ".git|.idea"'
 
 ## Git
+alias gp='clear && git push'
 alias gd='clear && git diff'
 alias gg='clear && git status -s'
 alias gs='clear && git status'
