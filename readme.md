@@ -1,5 +1,5 @@
 # dotfiles
-It manages dotfiles with stow and installs software programs with nix.
+This repo manages dotfiles with **stow** and installs packages with **nix**.
 
 ### Mac Prerequisites
 ```
@@ -21,7 +21,7 @@ List
 ```
 nix-env -q --installed 
 ```
-* [Search](https://search.nixos.org/packages)
+> [Search](https://search.nixos.org/packages)
 
 Install node LTS
 ```
