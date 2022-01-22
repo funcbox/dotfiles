@@ -1,4 +1,5 @@
 # export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH=$HOME/go/bin:$PATH
 
 export EDITOR=vim
 
