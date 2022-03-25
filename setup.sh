@@ -6,21 +6,23 @@ function install_nix() {
 
 function install_nix_packages() {
     nix-env -iA \
-	      nixpkgs.neovim \
-	      nixpkgs.antibody \
-	      nixpkgs.tree \
-	      nixpkgs.git \
-	      nixpkgs.gh \
-	      nixpkgs.deno \
-	      nixpkgs.nodejs-16_x \
-	      nixpkgs.go_1_17 \
-	      nixpkgs.golangci-lint \
-	      nixpkgs.go-tools \
-	      nixpkgs.gosec \
-	      nixpkgs.mage \
-	      nixpkgs.wire \
-	      nixpkgs.modd \
-	      nixpkgs.stow
+        nixpkgs.terraform \
+        nixpkgs.wrangler \
+        nixpkgs.neovim \
+        nixpkgs.antibody \
+        nixpkgs.tree \
+        nixpkgs.git \
+        nixpkgs.gh \
+        nixpkgs.deno \
+        nixpkgs.nodejs-16_x \
+        nixpkgs.go_1_17 \
+        nixpkgs.golangci-lint \
+        nixpkgs.go-tools \
+        nixpkgs.gosec \
+        nixpkgs.mage \
+        nixpkgs.wire \
+        nixpkgs.modd \
+        nixpkgs.stow
 }
 
 function bundle_antibody_plugins() {

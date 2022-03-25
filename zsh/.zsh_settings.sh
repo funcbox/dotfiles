@@ -1,5 +1,5 @@
-# export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH=$HOME/go/bin:$PATH
+export PATH=$HOME/go/bin:$HOME/.nix-profile/bin:/nix/var/nix/profiles/default/bin:$PATH
+export NIX_SSL_CERT_FILE=/nix/var/nix/profiles/default/etc/ssl/certs/ca-bundle.crt
 
 export EDITOR=vim
 
@@ -8,7 +8,9 @@ alias la='clear && ls -FGla'
 alias ll='clear && ls -FGl'
 
 alias te='clear && tree -R'
-alias ta='clear && tree -Ra -I ".git|.idea"'
+alias ta='clear && tree -Ra -I ".git|.idea|node_modules"'
+alias tt='clear && tree -R -I ".git|.idea|node_modules|demo-app"'
+alias tat='clear && tree -Ra -I ".git|.idea|node_modules|demo-app"'
 
 ## Git
 alias gp='clear && git push'
