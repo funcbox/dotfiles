@@ -28,6 +28,8 @@ List `nix-env -q --installed`
 
 Install node LTS `nix-env -iA nixpkgs.nodejs-16_x`
 
+Test programs without installing them: `nix-shell -p python3`
+
 ### Stow
 Stow git folder `stow git --target=$HOME`
 
