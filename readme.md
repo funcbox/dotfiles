@@ -40,3 +40,5 @@ Stow git folder `stow git --target=$HOME`
 * [Google Distroless Containers](https://github.com/GoogleContainerTools/distroless)
 * [webinstall.dev](https://webinstall.dev)
 * [Build A Portable Development Environment](https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6)
+* [Deploying NixOS using Terraform](https://nixos.org/guides/deploying-nixos-using-terraform.html)
+* [Nix.dev](https://nix.dev)
