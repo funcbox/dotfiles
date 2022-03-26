@@ -18,8 +18,8 @@ Run script `./setup.sh`
 ### Nix
 env
 ```
-PATH=/Users/art/go/bin:/Users/art/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-NIX_PROFILES=/nix/var/nix/profiles/default /Users/art/.nix-profile
+PATH=$HOME/go/bin:$HOME/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+NIX_PROFILES=/nix/var/nix/profiles/default $HOME/.nix-profile
 NIX_SSL_CERT_FILE=/nix/var/nix/profiles/default/etc/ssl/certs/ca-bundle.crt
 ```
 
