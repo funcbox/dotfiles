@@ -27,11 +27,15 @@ List `nix-env -q --installed`
 > [Search](https://search.nixos.org/packages)
 
 Install node LTS `nix-env -iA nixpkgs.nodejs-16_x`
+Remove `nix-env --uninstall docker`
 
 Test programs without installing them: `nix-shell -p python3`
 
 ### Stow
 Stow git folder `stow git --target=$HOME`
+
+### Manual installation
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ### References
 * [NixOS](https://nixos.org)
@@ -42,3 +46,5 @@ Stow git folder `stow git --target=$HOME`
 * [Build A Portable Development Environment](https://jakewiesler.notion.site/Build-A-Portable-Development-Environment-43d698395f65498f825113b841ba22a6)
 * [Deploying NixOS using Terraform](https://nixos.org/guides/deploying-nixos-using-terraform.html)
 * [Nix.dev](https://nix.dev)
+* [GitHub CLI Manual](https://cli.github.com/manual/)
+* [google application default credentials](https://developers.google.com/identity/protocols/application-default-credentials)
