@@ -46,6 +46,7 @@ Stow git folder `stow git --target=$HOME`
 
 ### Manual installation
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* [Fastly CLI](https://github.com/fastly/cli/releases)
 
 ### References
 * [NixOS](https://nixos.org)
