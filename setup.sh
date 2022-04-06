@@ -17,7 +17,7 @@ function install_nix_packages() {
         nixpkgs.gh \
         nixpkgs.deno \
         nixpkgs.nodejs-16_x \
-        nixpkgs.go_1_17 \
+        nixpkgs.go_1_18 \
         nixpkgs.golangci-lint \
         nixpkgs.go-tools \
         nixpkgs.gosec \

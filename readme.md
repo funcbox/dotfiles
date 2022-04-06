@@ -32,6 +32,15 @@ Remove `nix-env --uninstall docker`
 
 Test programs without installing them: `nix-shell -p python3`
 
+Install from unstable channel
+```
+nix-channel --help
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+nix-env -iA nixpkgs.go_1_18
+go version
+```
+
 ### Stow
 Stow git folder `stow git --target=$HOME`
 
