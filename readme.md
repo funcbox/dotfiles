@@ -27,6 +27,7 @@ List `nix-env -q --installed`
 > [Search](https://search.nixos.org/packages)
 
 Install node LTS `nix-env -iA nixpkgs.nodejs-16_x`
+
 Remove `nix-env --uninstall docker`
 
 Test programs without installing them: `nix-shell -p python3`
