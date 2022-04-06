@@ -49,3 +49,4 @@ Stow git folder `stow git --target=$HOME`
 * [Nix.dev](https://nix.dev)
 * [GitHub CLI Manual](https://cli.github.com/manual/)
 * [google application default credentials](https://developers.google.com/identity/protocols/application-default-credentials)
+* [rsc.io/2fa](https://pkg.go.dev/rsc.io/2fa#section-readme)

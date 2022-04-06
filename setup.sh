@@ -8,6 +8,7 @@ function install_nix_packages() {
     nix-env -iA \
         nixpkgs.terraform \
         nixpkgs.sops \
+        nixpkgs.go-2fa \
         nixpkgs.wrangler \
         nixpkgs.neovim \
         nixpkgs.antibody \
