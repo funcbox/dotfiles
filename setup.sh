@@ -7,10 +7,12 @@ function install_nix() {
 function install_nix_packages() {
     nix-env -iA \
         nixpkgs.terraform \
+        nixpkgs.google-cloud-sdk \
         nixpkgs.sops \
         nixpkgs.go-2fa \
         nixpkgs.wrangler \
         nixpkgs.neovim \
+        nixpkgs.helix \
         nixpkgs.antibody \
         nixpkgs.tree \
         nixpkgs.git \
