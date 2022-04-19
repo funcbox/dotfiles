@@ -19,7 +19,8 @@ Run script `./setup.sh`
 env
 ```
 PATH=$HOME/go/bin:$HOME/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-NIX_PROFILES=/nix/var/nix/profiles/default $HOME/.nix-profile
+NIX_PROFILES=/nix/var/nix/profiles/default 
+$HOME/.nix-profile
 NIX_SSL_CERT_FILE=/nix/var/nix/profiles/default/etc/ssl/certs/ca-bundle.crt
 ```
 
