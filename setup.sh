@@ -8,8 +8,10 @@ function install_nix_packages() {
     nix-env -iA \
         nixpkgs.terraform \
         nixpkgs.google-cloud-sdk \
+        nixpkgs.dagger \
         nixpkgs.direnv \
         nixpkgs.sops \
+        nixpkgs.age \
         nixpkgs.go-2fa \
         nixpkgs.wrangler \
         nixpkgs.neovim \
