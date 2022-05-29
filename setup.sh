@@ -24,6 +24,8 @@ function install_nix_packages() {
         nixpkgs.deno \
         nixpkgs.nodejs-16_x \
         nixpkgs.adoptopenjdk-jre-bin \
+        nixpkgs.lua5_4 \
+        nixpkgs.lua53Packages.luarocks \
         nixpkgs.go_1_17 \
         nixpkgs.golangci-lint \
         nixpkgs.go-tools \
