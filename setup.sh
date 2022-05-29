@@ -4,6 +4,7 @@ function install_nix() {
     curl -L https://nixos.org/nix/install | sh
 }
 
+# When Go tools are stable: nixpkgs.go_1_18
 function install_nix_packages() {
     nix-env -iA \
         nixpkgs.terraform \
@@ -22,7 +23,8 @@ function install_nix_packages() {
         nixpkgs.gh \
         nixpkgs.deno \
         nixpkgs.nodejs-16_x \
-        nixpkgs.go_1_18 \
+        nixpkgs.adoptopenjdk-jre-bin \
+        nixpkgs.go_1_17 \
         nixpkgs.golangci-lint \
         nixpkgs.go-tools \
         nixpkgs.gosec \

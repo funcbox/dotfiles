@@ -62,3 +62,4 @@ Stow git folder `stow git --target=$HOME`
 * [google application default credentials](https://developers.google.com/identity/protocols/application-default-credentials)
 * [rsc.io/2fa](https://pkg.go.dev/rsc.io/2fa#section-readme)
 * [Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk)
+* [passage](https://github.com/funcbox/passage)
