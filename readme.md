@@ -13,7 +13,7 @@ mkdir $HOME/go/bin
 mkdir $HOME/Workspace
 mkdir $HOME/Workspace/bin
 cd $HOME/Workspace
-git clone git@github.com:funcbox/dotfiles.git
+git clone https://github.com/funcbox/dotfiles.git
 ```
 
 ### Setup
