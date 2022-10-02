@@ -8,9 +8,8 @@ function install_nix() {
 function install_nix_packages() {
     nix-env -iA \
         nixpkgs.terraform \
-	      nixpkgs.lsd  \
+        nixpkgs.lsd  \
         nixpkgs.emacs \
-        nixpkgs.google-cloud-sdk \
         nixpkgs.dagger \
         nixpkgs.direnv \
         nixpkgs.sops \
