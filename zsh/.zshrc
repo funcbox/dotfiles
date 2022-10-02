@@ -9,9 +9,6 @@ source ~/.zsh_settings.sh
 source ~/.zsh_plugins.sh
 
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 eval "$(direnv hook zsh)"
 
 # The next line updates PATH for the Google Cloud SDK.
@@ -19,3 +16,8 @@ if [ -f '/Users/art/Workspace/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Use
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/art/Workspace/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/art/Workspace/bin/google-cloud-sdk/completion.zsh.inc'; fi
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export POWERLEVEL9K_INSTANT_PROMPT=quiet
